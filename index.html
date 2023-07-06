@@ -406,18 +406,18 @@
                 "https://cdn.pendo.io/agent/static/52ec717d-9e8c-4211-4a01-758149030ce6/pendo.js"),
               (l = e.getElementsByTagName(a)[0]).parentNode.insertBefore(c, l);
           })(window, document, "script", "pendo"),
-          // pendo.initialize({
-          //   visitor: {
-          //     id: visitor || "VISITOR-UNIQUE-ID",
-          //     role: role || "user",
-          //   },
-          //   account: { id: account_id || "ACCOUNT-UNIQUE-ID" },
+          pendo.initialize({
+            visitor: {
+              id: visitor || "VISITOR-UNIQUE-ID",
+              role: role || "user",
+            },
+            account: { id: account_id || "ACCOUNT-UNIQUE-ID" },
           }));
     </script>
     <title>pizzaCRM</title>
     <link href="/static/css/2.fed9dcda.chunk.css" rel="stylesheet" />
     <link href="/static/css/main.53fc292f.chunk.css" rel="stylesheet" />
-<!--     <script>
+    <script>
       (function(apiKey){
           (function(p,e,n,d,o){var v,w,x,y,z;o=p[d]=p[d]||{};o._q=o._q||[];
           v=['initialize','identify','updateOptions','pageLoad','track'];for(w=0,x=v.length;w<x;++w)(function(m){
@@ -453,7 +453,7 @@
                   }
               });
       })('52ec717d-9e8c-4211-4a01-758149030ce6');
-      </script> -->
+      </script>
 
     
 <!--     Segment install -->

@@ -441,7 +441,7 @@
                   },
       
                   account: {
-                      id:           account_id, // Required if using Pendo Feedback, default uses the value 'ACCOUNT-UNIQUE-ID
+                      id:           account_id || 'ACCOUNT-UNIQUE-ID', // Required if using Pendo Feedback, default uses the value 'ACCOUNT-UNIQUE-ID
                       // name:         // Optional
                       // is_paying:    // Recommended if using Pendo Feedback
                       // monthly_value:// Recommended if using Pendo Feedback

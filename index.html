@@ -431,12 +431,12 @@
               // Please use Strings, Numbers, or Bools for value types.
               pendo.initialize({
                   visitor: {
-                      id:                 'bd-test-value',
+                      // id:                 'bd-test-value',
                     
-                      // id:                visitor || 'VISITOR-UNIQUE-ID',   // Required if user is logged in, default creates anonymous ID
-                      role:               role || 'user',
-                      firstname:          'FirstNameTest',
-                      email:               'test@email.com' // Recommended if using Pendo Feedback, or NPS Email
+                      id:                visitor || 'VISITOR-UNIQUE-ID',   // Required if user is logged in, default creates anonymous ID
+                      // role:               role || 'user',
+                      // firstname:          'FirstNameTest',
+                      // email:               'test@email.com' // Recommended if using Pendo Feedback, or NPS Email
                       // full_name:          'Ben D',  // Recommended if using Pendo Feedback
                          
                       // You can add any additional visitor level key-values here,
@@ -444,10 +444,10 @@
                   },
       
                   account: {
-                      id:                  'test-account',
-                      companyName:         'company123'
+                      // id:                  'test-account',
+                      // companyName:         'company123'
 
-                      // id:           account_id || 'ACCOUNT-UNIQUE-ID', // Required if using Pendo Feedback, default uses the value 'ACCOUNT-UNIQUE-ID
+                      id:           account_id || 'ACCOUNT-UNIQUE-ID', // Required if using Pendo Feedback, default uses the value 'ACCOUNT-UNIQUE-ID
                       // name:         // Optional
                       // is_paying:    // Recommended if using Pendo Feedback
                       // monthly_value:// Recommended if using Pendo Feedback
